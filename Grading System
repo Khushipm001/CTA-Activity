@@ -1,3 +1,42 @@
+/*
+Problem Definition:
+
+You are hired as an Associate Software Engineer in a reputed Multinational Company (MNC).  Your company has received a software requirement from Shri Dharmasthala Manjunatheshwara College of Engineering and Technology, Dharwad, a software that computes and publishes the  examination results. 
+You are assigned to work on Students’ Grading System project. As part of this project, you are  asked by your team lead to write a GUI based Java program to compute the grade obtained by a student in a  single course. 
+Sample GUI design template for your assigned task is given below:
+
+The project must provide the following features: 
+1) Provide GUI components to read IA–1, IA–2, IA–3, CTA & SEE marks scored by a student in a  single course. 
+2) Proper error messages should be displayed if marks entered is invalid. i.e., IA marks should be  between 0 – 20, CTA between 0 – 10 and SEE between 0 – 100. Incase of absentees, marks should  be entered as 0. 
+3) CIE marks is the sum of best 2 marks of IA–1, IA–2 and IA–3 + CTA. 
+4) If CIE < 20, then the program should display a message “Student is detained from taking SEE” and the program should not display the grade. 
+5) If SEE marks is 38 or 39, then it should be upgraded to 40. 
+6) If SEE marks is < 38, then the message F Grade should be printed. 
+7) Total marks is to be calculated using the formula: 
+            Total Marks = CIE + SEE/2
+SEE/2 is to be rounded-off to next number if the fraction is ≥ 0.5, otherwise, it should be truncated.
+               For example: 
+ If SEE/2= 42.5, then it should be converted to 43. 
+8) Grade is to be computed and displayed using the following table: 
+
+Total marks : Grade
+100 – 90 :S
+89 – 80 :A
+79 – 70 :B
+69 – 60 :C
+59 – 50 :D
+49 – 40 : E
+39 – 0 : F
+
+As a beginner in Java programming, you are required to incorporate the following in your program: 
+      • Use of object-oriented style of programming 
+      • Use of inheritance and interfaces 
+      • Exception handling mechanism 
+• Use of dynamic method dispatch feature 
+Note: The sample GUI provided is for REFERENCE ONLY. You are required to provide professional  look-and-feel to your application.
+
+*/
+
 package college.oops;
 
 import java.awt.*;
