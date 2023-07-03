@@ -221,7 +221,7 @@ class GradingSystem extends JFrame implements ActionListener {
 				grade = 'D';
 			else if (total >= 40)
 				grade = 'E';
-			else if (cie >= 20 && see >= 40)
+			else if (cie >= 20 && see < 40)
 				grade = 'F';
 			else
 				grade = ' ';
