@@ -171,15 +171,15 @@ class GradingSystem extends JFrame implements ActionListener {
 		char grade;
 
 		if (ia1 > 20 || ia1 < 0) 
-			print("content: IA1 marks is INCORRECT!", txtFld1);
+			print("IA1 marks is INCORRECT!", txtFld1);
 		else if (ia2 > 20 || ia2 < 0)
-			print("content: IA2 marks is INCORRECT!", txtFld2);
+			print("IA2 marks is INCORRECT!", txtFld2);
 		else if (ia3 > 20 || ia3 < 0)
-			print("content: IA3 marks is INCORRECT!", txtFld3);
+			print("IA3 marks is INCORRECT!", txtFld3);
 		else if (cta > 10 || cta < 0)
-			print("content: CTA marks is INCORRECT!", txtFld4);
+			print("CTA marks is INCORRECT!", txtFld4);
 		else if (see > 100 || see < 0)
-			print("content: SEE marks is INCORRECT!", txtFld5);
+			print("SEE marks is INCORRECT!", txtFld5);
 
 		else {
             // if there are no input mistakes then further computation is done
@@ -191,10 +191,10 @@ class GradingSystem extends JFrame implements ActionListener {
 				cie = ia2 + ia3 + cta;
 
 			if (cie < 20)
-				print("content: Student is detained from taking SEE", txtFld5);
+				print("Student is detained from taking SEE", txtFld5);
 
 			if (see < 38)
-				print("content:Student FAILED : Grade - F", txtFld5);
+				print("Student FAILED : Grade - F", txtFld5);
 
 			if (see == 38 || see == 39)
 				see = 40;
